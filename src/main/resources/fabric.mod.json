@@ -1,0 +1,28 @@
+{
+    "schemaVersion": 1,
+    "id": "lightweightclient",
+    "version": "${version}",
+    "name": "Lightweight Client",
+    "description": "A lightweight client-side mod featuring FPS counter, coordinates display, minimap, and waypoints.",
+    "authors": ["ModAuthor"],
+    "contact": {
+        "homepage": "https://github.com/ModAuthor/lightweight-client-mod",
+        "sources": "https://github.com/ModAuthor/lightweight-client-mod"
+    },
+    "license": "MIT",
+    "icon": "assets/lightweightclient/icon.png",
+    "environment": "client",
+    "entrypoints": {
+        "client": [
+            "com.lightweightclient.LightweightClientMod"
+        ]
+    },
+    "mixins": [],
+    "accessWidener": "lightweightclient.accesswidener",
+    "depends": {
+        "fabricloader": ">=0.16.10",
+        "fabric-api": "*",
+        "minecraft": "~1.21",
+        "java": ">=21"
+    }
+}
